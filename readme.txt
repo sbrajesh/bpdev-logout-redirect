@@ -13,7 +13,7 @@ Simple Plugin which redirects users to site home page on logout.
 1. Works with standard wordpress mu,when the user logs out from the dashboard,or anywhere else ,he is sent back to main site home page
 2. For buddypress,when user logs out from the site front end,It does nothing(as buddypress itself redirects to the site front page),when the user logs out from dashboard(backend) of site,he will be redirected to the site home page
 
-<a href="https://buddydev.com/support/forums/">Support In our Forums</a>
+[Support In our Forums](https://buddydev.com/support/forums/)
 
 == Changelog ==
 = 1.1.0 =
