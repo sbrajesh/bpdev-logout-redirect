@@ -1,18 +1,23 @@
-=== BpDev Logout redirect for wpmu/buddypress ===
-Contributors: sbrajesh,cosmiccoders
-Tags: buddypress, wpmu, plugin, logout,redirect
-Requires at least: wpmu 2.8+buddypress 1.1
-Tested up to: wpmu 2.8.6 +buddypress 1.2
-Stable tag: 1.0
+=== Logout Redirect for Multisite/BuddyPress ===
+Contributors: sbrajesh,buddydev
+Tags: buddypress, multisite, plugin, logout,redirect
+Requires at least: 4.5
+Tested up to: 4.9.8
+Stable tag: 1.1.0
+
 On Logout send the user to the site home page,instead of login page.
+
 == Description ==
 Simple Plugin which redirects users to site home page on logout.
-1.Works with standard wordpress mu,when the user logs out from the dashboard,or anywhere else ,he is sent back to main site home page
-2.For buddypress,when user logs out from the site front end,It does nothing(as buddypress itself redirects to the site front page),when the user logs out from dashboard(backend) of site,he will be redirected to the site home page
 
-<a href="http://buddydev.com/forums/">Support In our Forums</a>
+1. Works with standard wordpress mu,when the user logs out from the dashboard,or anywhere else ,he is sent back to main site home page
+2. For buddypress,when user logs out from the site front end,It does nothing(as buddypress itself redirects to the site front page),when the user logs out from dashboard(backend) of site,he will be redirected to the site home page
+
+<a href="https://buddydev.com/support/forums/">Support In our Forums</a>
 
 == Changelog ==
+= 1.1.0 =
+* Prevent fatal error when BuddyPress is not active.
 
 = 1.0 =
 * First official release
@@ -23,4 +28,4 @@ Simple Plugin which redirects users to site home page on logout.
 3.That's it ,you are done.
 
 == Plugin Support ==
-[BpDev logout redirect for wpmu/bp Support](http://buddydev.com/forums/ "Buddydev Buddypress Plugins and Support Services")
+[Logout redirect for wpmu/bp Support](https://buddydev.com/support/forums/ "BuddyDev Buddypress Plugins and Support Services")
